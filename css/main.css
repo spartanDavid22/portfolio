@@ -6,11 +6,15 @@ html{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background: linear-gradient(180deg, var(--third), var(--fourth) 80%);
+    background-repeat: no-repeat;
 }
 
 body{
-    background: linear-gradient(180deg, var(--third), var(--fourth) 80%);
-    background-repeat: no-repeat;   
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 20px;   
 }
 
 :root{
