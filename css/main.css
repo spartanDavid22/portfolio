@@ -1,1 +1,21 @@
 @import url("main-layout/main-layout.css");
+@import url("introduction/index.css");
+
+html{
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(180deg, var(--third), var(--fourth) 80%);
+    background-repeat: no-repeat;   
+}
+
+:root{
+    --primary: #d4f0fc;
+    --secondary: #89d6fb;
+    --third: #02a9f7;
+    --fourth: #01303f;
+}

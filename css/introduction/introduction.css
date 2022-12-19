@@ -1,0 +1,16 @@
+.introduction{
+    margin: 1em;
+    color: var(--primary);
+    display: grid;
+    grid-template-rows: 0.3fr 1fr;
+    grid-gap: 10px;
+}
+
+.introduction__header{
+    justify-self: center;
+}
+
+.introduction__text{
+    justify-self: center;
+    text-align: center;
+}
