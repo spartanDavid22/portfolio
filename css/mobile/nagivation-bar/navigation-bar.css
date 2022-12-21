@@ -1,7 +1,8 @@
 .navigation-bar__mobile{
     padding: 1rem;
     overflow: hidden;
-    background-color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.321);
+    color: white;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -12,12 +13,14 @@
 #navLinks{
     display: none;
     margin-top: 1rem;
+    transition: display 13s 3s;
 }
 
-#navLinks a{
+#navLinks a, a::after{
     display: inline;
     text-decoration: none;
     padding: 5px;
+    color: white;
 }
 
 .nagivation-bar__logo{

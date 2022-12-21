@@ -1,12 +1,12 @@
 @import url(mobile/nagivation-bar/index.css);
-
+@import url(mobile/introduction/index.css);
 
 html{
     height: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, var(--third), var(--fourth) 80%);
+    background: linear-gradient(180deg, var(--secondary) 30%, var(--fourth) 120%);
     background-repeat: no-repeat;
 }
 

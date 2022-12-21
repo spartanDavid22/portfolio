@@ -1,0 +1,25 @@
+.introduction__layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgba(4, 0, 0, 0.647);
+}
+
+.introduction__image{
+    margin-top: 3rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.introduction__name{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.introduction__text{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
