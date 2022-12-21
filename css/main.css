@@ -1,5 +1,5 @@
-@import url("main-layout/main-layout.css");
-@import url("introduction/index.css");
+@import url(mobile/nagivation-bar/index.css);
+
 
 html{
     height: 100%;
@@ -11,10 +11,9 @@ html{
 }
 
 body{
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 20px;   
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 :root{

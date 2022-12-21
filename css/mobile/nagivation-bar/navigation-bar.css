@@ -1,0 +1,33 @@
+.navigation-bar__mobile{
+    padding: 1rem;
+    overflow: hidden;
+    background-color: var(--primary);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+}
+
+#navLinks{
+    display: none;
+    margin-top: 1rem;
+}
+
+#navLinks a{
+    display: inline;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.nagivation-bar__logo{
+    display: inline;
+    order: -1;
+}
+
+.nagivation-bar__icon{
+    display: inline;
+}
+
+
+

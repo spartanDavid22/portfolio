@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dee5ebc89e.js" crossorigin="anonymous"></script>
     <link href="css/main.css" rel="stylesheet">
     <title>David Vega Sotolongo</title>
 </head>
-<body class="main-layout">
-    
-    
-    
-    <div class="introduction"> 
-        <h1 class="introduction__header">
+<body>
+    <!--Navigation Bar-->
+    <nav class="navigation-bar__mobile">
+        <div href="#logo" class="nagivation-bar__logo"> 
             David Vega Sotolongo
-        </h1>
-        <p class="introduction__text">
-            Hello, my name is David. This is simply a text so that i can see how things will look on the page.
-            this is going to be quite the learning path. I lowkey thought i was better and frontend but i can clearly see that I am not nearly good enough to even begin worrying about the front end.
-        </p>
+        </div>
+
+        <!--Hamburger Icon-->
+        <a class="nagivation-bar__icon" id="iconToggle">
+            <i class="fa-solid fa-bars"></i>
+        </a>
         
-    </div>
-    <div>
-        Testing
-    </div>
+        <!--Links for navigation-->
+        <div id="navLinks">
+            <a href="#aboutMe">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+    </nav>
 </body>
+
+<script src="js/mobile/navigation.js" type="text/javascript"></script>
 </html>
