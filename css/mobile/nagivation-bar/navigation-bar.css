@@ -1,8 +1,8 @@
 .navigation-bar__mobile{
     padding: 1rem;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.321);
-    color: white;
+    background-color: var(--fourth);
+    color: var(--third);
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@
     display: inline;
     text-decoration: none;
     padding: 5px;
-    color: white;
+    color: var(--third);
 }
 
 .nagivation-bar__logo{

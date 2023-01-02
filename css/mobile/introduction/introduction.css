@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     font-size: 1.2rem;
-    color: rgba(4, 0, 0, 0.647);
+    font-weight: 600;
+    color: var(--fourth);
 }
 
 .introduction__image{
@@ -22,4 +23,9 @@
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: center;
+}
+
+.introduction__under-name{
+    margin-top: 0;
+    margin-bottom: 0;
 }

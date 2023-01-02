@@ -1,24 +1,40 @@
 @import url(mobile/nagivation-bar/index.css);
 @import url(mobile/introduction/index.css);
+@import url(mobile/skills/index.css);
+@import url(mobile/projects/index.css);
 
 html{
-    height: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, var(--secondary) 30%, var(--fourth) 120%);
-    background-repeat: no-repeat;
 }
 
 body{
     margin: 0;
     padding: 0;
     width: 100%;
+    background: linear-gradient(180deg, var(--third) 40%, var(--secondary) 120%);
+    background-repeat: no-repeat;
 }
 
 :root{
-    --primary: #d4f0fc;
-    --secondary: #89d6fb;
-    --third: #02a9f7;
-    --fourth: #01303f;
+    --primary: #3e000c;
+    --secondary: #fb4b4e;
+    --third: #ffcbdd;
+    --fourth: #7c0b2b;
+    --fifth: #d10000;
+}
+
+.page-break{
+    display: flex;
+    justify-content: center;
+}
+
+.page-break__dots{
+    margin: 1rem 10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: var(--primary);
 }

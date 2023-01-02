@@ -1,0 +1,51 @@
+.projects__layout h1{
+    color: var(--primary);
+    text-align: center;
+}
+
+.projects__buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects__buttons-style{
+    color: var(--primary);
+    background-color: var(--third);
+    font-weight: 700;
+    padding: 15px;
+    border: none;
+    transition: 0.5s;
+}
+
+.active{
+    background-color: var(--secondary);
+    color: var(--third);
+}
+
+.projects__shown{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.card{
+    margin-top: 1rem;
+    background-color: var(--secondary);
+    color: var(--third);
+}
+
+.container{
+    padding: 8px;
+}
+
+.card img{
+    width: 100%;
+    height: 150px;
+}
+
+.card h4, p{
+    margin: 0
+}
