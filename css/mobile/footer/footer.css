@@ -1,0 +1,24 @@
+footer{
+    background-color: var(--fourth);
+    margin-top: 0;
+    padding: 1rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+footer p{
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--third);
+    font-weight: 600;
+}
+
+.footer img{
+    border-radius: 10%;
+    background-color: white;
+}

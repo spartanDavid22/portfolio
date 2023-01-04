@@ -1,5 +1,5 @@
 .projects__layout h1{
-    color: var(--primary);
+    color: var(--fourth);
     text-align: center;
 }
 
@@ -9,8 +9,8 @@
 }
 
 .projects__buttons-style{
-    color: var(--primary);
-    background-color: var(--third);
+    color: var(--third);
+    background-color: var(--fifth);
     font-weight: 700;
     padding: 15px;
     border: none;

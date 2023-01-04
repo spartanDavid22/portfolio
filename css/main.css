@@ -2,6 +2,8 @@
 @import url(mobile/introduction/index.css);
 @import url(mobile/skills/index.css);
 @import url(mobile/projects/index.css);
+@import url(mobile/contact/index.css);
+@import url(mobile/footer/index.css);
 
 html{
     box-sizing: border-box;
@@ -13,21 +15,23 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    background: linear-gradient(180deg, var(--third) 40%, var(--secondary) 120%);
-    background-repeat: no-repeat;
+    background-color: var(--third);
+    /* background: linear-gradient(180deg, var(--third) 40%, var(--primary) 120%);
+    background-repeat: no-repeat; */
 }
 
 :root{
-    --primary: #3e000c;
-    --secondary: #fb4b4e;
-    --third: #ffcbdd;
-    --fourth: #7c0b2b;
-    --fifth: #d10000;
+    --primary: #ced3dc;
+    --secondary: #275dad;
+    --third: #fcf7f8;
+    --fourth: #5b616a;
+    --fifth: #aba9c3;
 }
 
 .page-break{
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .page-break__dots{
@@ -36,5 +40,5 @@ body{
     width: 10px;
     border-radius: 50%;
     display: inline-block;
-    background-color: var(--primary);
+    background-color: var(--fourth);
 }

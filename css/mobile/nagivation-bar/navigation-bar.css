@@ -3,7 +3,6 @@
     overflow: hidden;
     background-color: var(--fourth);
     color: var(--third);
-    position: relative;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
