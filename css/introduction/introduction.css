@@ -29,3 +29,9 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+
+@media (min-width: 600px) {
+    .introduction__text{
+        width: 80%;
+    }
+}

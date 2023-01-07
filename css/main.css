@@ -1,9 +1,9 @@
-@import url(mobile/nagivation-bar/index.css);
-@import url(mobile/introduction/index.css);
-@import url(mobile/skills/index.css);
-@import url(mobile/projects/index.css);
-@import url(mobile/contact/index.css);
-@import url(mobile/footer/index.css);
+@import url(nagivation-bar/index.css);
+@import url(introduction/index.css);
+@import url(skills/index.css);
+@import url(projects/index.css);
+@import url(contact/index.css);
+@import url(footer/index.css);
 
 html{
     box-sizing: border-box;
